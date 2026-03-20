@@ -13,7 +13,9 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://penqidandan.github.io/first-blog/
+# root: /first-blog/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,7 +102,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/penqidandan/first-blog.git
+  branch: gh-pages
 aplayer:
   cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
   style_cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
